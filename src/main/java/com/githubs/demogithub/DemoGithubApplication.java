@@ -12,7 +12,7 @@ public class DemoGithubApplication {
 
 	@GetMapping("/hello")
 	public String hello(){
-		return "springboot rest-api" ;
+		return "springboot hello world rest-api" ;
 	}
 
 	public static void main(String[] args) {
